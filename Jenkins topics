@@ -1,0 +1,117 @@
+-------------------------------------------------------------------------
+How to execute a bash script from jenkins
+------------------------------------------------------------------------
+jenkins and Docker:-
+- Install SSH Plugin.
+Integrate docker ssh server with jenkins
+------------------------------------------------------------------------
+Jenkins and Ansible:-
+- Make the ssh keys permanent on the Jenkins container
+- Integrate Ansible and Jenkins (Ansible Plugin)
+-------------------------------------------------------------------------
+Jenkins and secuirity:-
+- Create a role to execute jobs, and assign that role to your user
+--------------------------------------------------------------------------
+Jenkins Tips and Trics:-
+- Global environment variables in Jenkins
+- Create your own custom global environment variables
+- Modify the Jenkins URL
+- Meet the Jenkins' cron: Learn how to execute Jobs automatically
+- Learn how to trigger Jobs from external sources: Create a generic user
+- Trigger your Jobs from Bash Scripts (No parameters)
+- Trigger your Jobs from Bash Scripts (With Parameters)
+
+---------------------------------------------------------------------------
+Jenkins & Email
+-Install a Mail Plugin
+Integrate Jenkins and AWS Simple Email Service
+Integrate Jenkins and Gmail
+Add notifications to your jobs
+--------------------------------------------------------------------------
+ Jenkins & Maven:-
+ Install the Maven Plugin
+ Install the GIT Plugin
+ Learn how to clone a GIT/GITHUB repository from Jenkins
+ Learn how to build a JAR using maven
+ Learn how to test your code
+ Deploy your Jar locally
+ Display the result of your tests using a graph
+ Archive the last successful artifact
+ Send Email notifications about the status of your maven project
+ -------------------------------------------------------------------------
+ Jenkins and Git
+ Create a Git Server using Docker
+ Create your first Git Repository
+ Create a Git User to interact with your Repository
+ Upload the code for the Java App in your Repo
+ Integrate your Git server to your maven Job
+ Learn about Git Hooks
+ Trigger your Jenkins job using a Git Hook
+--------------------------------------------------------------------------
+Jenkins and DSL
+Install the DSL Plugin
+What is a Seed Job in DSL?
+Understand the DSL Structure
+Description
+Parameters
+SCM
+Triggers
+Steps
+Mailer
+Recreate the Ansible Job using DSL
+Recreate the Maven Job using DSL
+Version your DSL code using Git
+Magic? Create Jobs only pushing the DSL code to your Git server!
+--------------------------------------------------------------------------
+CI/CD Definition:-
+Continuous Integration
+Continuous Delivery
+Continuous Deployment
+--------------------------------------------------------------------------
+ Jenkins Pipeline - Jenkinsfile
+ Introduction to Pipeline
+ Introduction to Jenkinsfile
+ Install the Jenkins Pipeline Plugin
+ Create your first Pipeline
+ Add multi-steps to your Pipeline
+ Retry
+ Timeouts
+ Environment variables
+ Credentials
+ Post actions
+ 
+ --------------------------------------------------------------------------------
+ CI/CD + Jenkins Pipeline + Docker + Mavaen
+ Learn how to install Docker inside of a Docker Container
+ Define the steps for your Pipeline
+ Build: Create a Jar for your Maven App using Docker
+ Build: Write abash script to automate the Jar creation
+ Build: Create a Dockerfile and build an image with your Jar
+ Build: Create a Docker Compose file to automate the Image build process
+ Build: Write a bash script to automate the Docker Image creation process
+ Build: Add your scripts to the Jenkinsfile
+ Test: Learn how to test your code using Maven and Docker
+ Test: Create a bash script to automate the test process
+ Test: Add your test script to Jenkinsfile
+ Create a remote machine to deploy your containerized app
+ Push: Create your own Docker Hub account
+ Push: Create a Repository in Docker Hub
+ Push: Learn how to Push/Pull Docker images to your Repository
+ Push: Write a bash script to automate the push process
+ Push: Add your push script to Jenkinsfile
+ Deploy: Transfer some variables to the remote machine
+ Deploy: Deploy your application on the remote machine manually
+ Deploy: Transfer the deployment script to the remote machine
+ Deploy: Execute the deploy script in the remote machine
+ Deploy: Add your deploy script to Jenkinsfile
+ Create a Git Repository to store your scripts and the code for the app
+ Create the Jenkins Pipeline. Finally!
+ Modify the path when mounting Docker volumes
+ Create the Registry Password in Jenkins
+ Add the private ssh key to the Jenkins container
+ Add post actions to Jenkinsfile
+ Execute your Pipeline manually
+ Create a Git Hook to automatically trigger your Pipeline
+ Start the CI/CD process by committing new code to Git!
+
+
