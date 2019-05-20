@@ -115,3 +115,11 @@ Continuous Deployment
  Start the CI/CD process by committing new code to Git!
 
 
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+--- Jenkins Pipeline script parameterized builds
+i.e build with parameter
+
+
+
+
