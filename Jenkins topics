@@ -10,8 +10,27 @@ jenkins and Docker:-
 - Run your a Jenkins job on your Docker remote host through SSH
 ------------------------------------------------------------------------
 Jenkins and Ansible:-
+- Introduction: Jenkins + Ansible
+- Install Ansible: Docker + Jenkins
 - Make the ssh keys permanent on the Jenkins container
+- Create a simple Ansible Inventory
+- Create your first Ansible Playbook
 - Integrate Ansible and Jenkins (Ansible Plugin)
+- Learn how to execute Playbooks from a Jenkins Job
+- Power up! Add parameters to Ansible and Jenkins
+- Missing the colors? Colorize your playbooks' output
+- Challenge: Jenkins + Ansible + MySQL + PHP + NGINX + Shell Scripting
+- Create the DB that will hold all the users
+- Create a Bash Script to feed your DB - I
+- Create a Bash Script to feed your DB - II
+- Test your Script inserting the data to the DB
+- Start building a Docker Nginx Web Server + PHP - I
+- Start building a Docker Nginx Web Server + PHP - II
+- Build a table using HTML, CSS and PHP to display users
+- Integrate your Docker Web Server to the Ansible Inventory
+- Create a Playbook in Ansible to update your web table
+- Test your playbook and see the magic!
+- Ready? Let's create a Jenkins Job to build everything with a click!
 -------------------------------------------------------------------------
 Jenkins and secuirity:-
 - Create a role to execute jobs, and assign that role to your user
