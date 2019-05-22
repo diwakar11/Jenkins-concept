@@ -2,8 +2,12 @@
 How to execute a bash script from jenkins
 ------------------------------------------------------------------------
 jenkins and Docker:-
-- Install SSH Plugin.
-Integrate docker ssh server with jenkins
+- Docker + Jenkins + SSH - I
+- Docker + Jenkins + SSH - II
+- Docker + Jenkins + SSH - III
+- Learn how to install Jenkins Plugins (SSH Plugin)
+- Integrate your Docker SSH server with Jenkins
+- Run your a Jenkins job on your Docker remote host through SSH
 ------------------------------------------------------------------------
 Jenkins and Ansible:-
 - Make the ssh keys permanent on the Jenkins container
