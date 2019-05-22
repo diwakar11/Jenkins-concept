@@ -33,7 +33,14 @@ Jenkins and Ansible:-
 - Ready? Let's create a Jenkins Job to build everything with a click!
 -------------------------------------------------------------------------
 Jenkins and secuirity:-
+- Intro - Learn how to Enable/Disable Login in Jenkins
+- Allow users to sign up
+- Install a powerful security plugin
+- Create users manually in the Jenkins DB
+- Ever heard about roles? Let's create a Read Only role!
+- Assign the role that you created to a particular user
 - Create a role to execute jobs, and assign that role to your user
+- Learn how to restrict Jobs to users using Project Roles.
 --------------------------------------------------------------------------
 Jenkins Tips and Trics:-
 - Global environment variables in Jenkins
