@@ -1,0 +1,5 @@
+----------------------------------------------------------------------------------------------------------------------------
+Pipeline scripts may mark designated methods with the annotation @NonCPS. These are then compiled normally 
+(except for sandbox security checks), and so behave much like “binary” methods from the Java Platform, Groovy runtime, 
+or Jenkins core or plugin code.
+----------------------------------------------------------------------------------------------------------------------------
