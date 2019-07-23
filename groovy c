@@ -3,3 +3,20 @@ Pipeline scripts may mark designated methods with the annotation @NonCPS. These 
 (except for sandbox security checks), and so behave much like “binary” methods from the Java Platform, Groovy runtime, 
 or Jenkins core or plugin code.
 ----------------------------------------------------------------------------------------------------------------------------
+Exception handling is required in any programming language to handle the runtime errors so that normal flow of the application
+can be maintained.
+
+Catching Exceptions:-
+
+A method catches an exception using a combination of the try and catch keywords. A try/catch block is placed around the code that might
+generate an exception.
+
+try { 
+   //Protected code 
+} catch(ExceptionName e1) {
+   //Catch block 
+}
+All of your code which could raise an exception is placed in the Protected code block.
+
+In the catch block, you can write custom code to handle your exception so that the application can recover from the exception.
+------------------------------------------------------------------------------------------------------------------------------
